@@ -1,0 +1,24 @@
+<div class="contenedor">
+    <mat-card appearance="outlined">
+        <h5>Deatalles</h5>
+        <mat-card-content>
+            <mat-form-field class="example-full-width">
+                <mat-label>Cuerpo</mat-label>
+                <input matInput [(ngModel)]="cuerpo" type="text" placeholder="Cuerpo">
+            </mat-form-field><br>
+            <mat-form-field class="example-full-width">
+                <mat-label>Titulo</mat-label>
+                <input matInput [(ngModel)]="titulo" type="text" placeholder="Titulo">
+            </mat-form-field><br>
+            <mat-form-field class="example-full-width">
+                <mat-label>Id</mat-label>
+                <input matInput [(ngModel)]="id" type="number" placeholder="Id">
+            </mat-form-field>
+            <button (click)= "goBack()" mat-button>Atras</button>
+
+        </mat-card-content>
+      </mat-card>
+   
+  </div>
+
+  
